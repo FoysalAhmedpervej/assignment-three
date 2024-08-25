@@ -321,7 +321,7 @@
        <!--Form section  -->
        <div class="bg-gray-100 flex flex-col gap-5 py-11">
         <!-- container -->
-         <div class="flex w-4/5 items-center flex-col justify-between gap-5">
+         <div class="flex mx-auto w-4/5 items-center flex-col justify-between gap-5">
             <!--text section -->
          <div class="flex flex-col justify-between align-bottom items-center">
            <button class="max-w-[280px] px-3 pt-1 text-[16px] flex justify-center rounded-3xl bg-[#ABEF5F33]">
@@ -331,7 +331,7 @@
            <p class="text-center text-[14px] md:text-[16px] mt-2 md:w-1/2">The barn house captivates with its blend of rustic charm and  modern sophistication, featuring weathered wood, sleek metal accents.</p>
           </div>
           <!-- input section -->
-           <div class="flex flex-col md:grid p-4 md:grid-cols-2 gap-3 mx-auto">
+           <div class="flex flex-col items-center md:grid md:p-4 md:grid-cols-2 gap-3 mx-auto">
              <div class="mx-auto">
                <input type="text" placeholder="First Name*" class="input rounded-full   min-w-60" />
              </div>
@@ -346,7 +346,7 @@
              </div>
              <!-- text area -->
              <div class="col-span-2">
-               <textarea class="textarea rounded-3xl h-60  w-full" placeholder="Write your message here" ></textarea> 
+               <textarea class="textarea rounded-3xl h-60  min-w-[327px]" placeholder="Write your message here" ></textarea> 
              </div>
            </div>
            <!-- button -->
@@ -362,8 +362,32 @@
        </div>    
      </main>
      <!-- footer section -->
-      <footer>
-
+     <footer>
+      <footer class="footer footer-center bg-[#1C1C1C] bg-base-200 text-base-content text-white rounded p-10">
+        <nav>
+          <div class="flex flex-col w-[90%] md:w-[678px] gap-4 items-center justify-between">
+            <h2 class="flex bg-transparent border-none items-center space-x-2">
+              <span class="flex items-center justify-center w-6 h-6 bg-[#ABEF5F] text-black rounded-full transform"><i class="fa-solid size-4 mx-auto my-auto -rotate-45 fa-arrow-right"></i>
+              </span>  <span class="text-white text-3xl ml-[10px]">Rinterio</span>                                  
+            </h2>
+            <p class="text-xs text-[#737373] font-medium">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>                                     
+          </div>            
+        <div class="flex flex-col md:flex-row gap-2">
+          <a class="link link-hover">Home</a>
+          <a class="link link-hover">Services</a>
+          <a class="link link-hover">Portfolio</a>
+          <a class="link link-hover">Blogs</a>
+          <a class="link link-hover">Contact Us</a>
+        </div>        
+          <div class="flex justify-between">
+            <button class="btn rounded-3xl flex bg-[#ABEF5F] items-center space-x-2">
+              <span class="ml-[10px]">Book Consult</span>
+              <span class="flex items-center justify-center w-6 h-6 bg-black text-white rounded-full transform"><i class="fa-solid size-4 -rotate-45 fa-arrow-right"></i>
+              </span>                    
+            </button>                                     
+          </div>
+        </nav>           
       </footer>
+    </footer> 
 </body>
 </html>
