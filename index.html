@@ -21,7 +21,7 @@
     <!-- Header section -->
     <header class="">
       <!-- Navigation -->
-        <nav class="md:w-5/6 sm:w-4/5 mx-auto">
+        <nav class="md:w-5/6 w-full mx-auto">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                  <div class="flex justify-between">
@@ -102,7 +102,7 @@
               </div>                    
         </nav>
         <!-- banner section -->
-         <div class="mb-12">
+         <div class="mb-12 w-full">
           <div class="card bg-base-100 w-[90%] mx-auto md:w-4/5">
             <figure class="px-10 pt-10">
               <img
@@ -111,7 +111,7 @@
                 class="rounded-xl" />
             </figure>
             <div class="items-center flex flex-col justify-between gap-3 text-center">
-              <h2 class="font-extrabold text-[28px] lg:text-5xl">A barn house of this design has a striking appearance</h2>
+              <h2 class="font-extrabold text-2xl lg:text-5xl">A barn house of this design has a striking appearance</h2>
               <p class="text-center lg:max-w-[972px] mt-3 text-[14px] lg:text-[16px] font-medium">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
               <div class="p-2 mx-auto mt-3 rounded-3xl bg-[#ABEF5F] w-full md:w-[310px] card-actions">
                 <button class="flex mx-auto items-center space-x-2">
@@ -129,26 +129,26 @@
       <!-- About section -->
       <div class=" md:p-4 md:py-10 relative bg-gray-100">
         <!-- Vector Image  -->
-        <span><img src="assets/Vector.png" alt="Vector Image" class="lg:flex absolute hidden top-7 left-10 w-13 h-10 m-2"></span>
-        <div class="space-y-4 flex lg:w-[90%] flex-col items-center justify-center  lg:flex-row w-full   mx-auto">         
+        <span><img src="assets/Vector.png" alt="Vector Image" class="lg:flex absolute hidden top-4 left-10 w-13 h-10 m-2"></span>
+        <div class="space-y-4 flex lg:w-[90%] flex-col justify-center items-center  lg:flex-row w-full   mx-auto">         
             <!-- Text Container -->
            <div class="">        
                     <!-- Text Section 1 -->
             <div class="flex flex-col items-center justify-center p-4">
               <!-- Button -->
-            <div class="w-full flex flex-col items-center justify-center my-2">
+            <div class="w-full flex flex-col items-center md:items-start justify-center my-2">
               <button class="rounded-full w-32 bg-white"><span class="inline w-6 h-6 mr-2 "><i class="fa-solid size-4 fa-arrow-right"></i>
               </span>  About Us</button>
             </div>            
               <div class="mb-2 flex flex-col justify-between gap-2 items-center">
-                <h2 class="md:text-2xl text-[24px] text-center font-extrabold">We design thoughtful, liveable spaces</h2>
-                <p class="text-gray-600 text-[14px] text-center md:text-[16px]">The barn house captivates with its blend of rustic charm and 
+                <h2 class="text-xl text-center md:text-left font-extrabold">We design thoughtful, liveable spaces</h2>
+                <p class="text-gray-600 text-[14px] text-center md:text-left md:text-[16px]">The barn house captivates with its blend of rustic charm and 
                   modern sophistication, featuring weathered wood, sleek metal accents.</p>
               </div>
             </div>        
             <!-- Text Section 2 -->
             <div class="flex relative mx-auto w-[85%] mb-4 justify-between bg-white p-4 shadow rounded-xl">
-              <div class="flex justify-center align-middle mr-4">
+              <div class="flex justify-start items-start mr-4">
                 <img src="assets/commercial.png" alt="Commercial building" class="w-16 h-10">
               </div>
               <div>
@@ -247,7 +247,7 @@
             <button class="w-[280px] px-4 py-2 text-[16px] flex justify-center rounded-3xl bg-[#ABEF5F33] items-center">
               <i class="fa-solid size-5 fa-arrow-right"></i>  Explore our Latest works                                
             </button>
-            <h2 class="font-extrabold mt-2 text--[24px] text-center">Our Latest Portfolio</h2>
+            <h2 class="font-extrabold mt-2 text-xl text-center">Our Latest Portfolio</h2>
             <p class="text-center text-[14px] md:text-[16px] mt-2 md:w-1/2">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
            </div>
            <!-- card container --> 
@@ -318,6 +318,116 @@
          </div>
        </div> 
        </div>
+       <!-- Review section -->
+       <div class="bg-gray-100 shadow-xl">
+        <div class="w-[90%] md:w--[80%] flex flex-col gap-3 mx-auto">
+          <div class="flex mt-4 flex-col justify-center items-center">           
+            <h2 class="font-extrabold px-4 py-2 mt-2 text-xl text-center">User's Review</h2>
+            <div class="flex">
+              <div>
+                <button class="btn">
+                  User's                 
+                  <div class="badge">4K+</div>
+                </button>
+              </div>
+              <div>
+                <button class="btn">
+                  Project completed                
+                  <div class="badge">3K+</div>
+                </button>
+              </div>
+              <div>
+                <button class="btn">
+                  Ratings                 
+                  <div class="badge">2K+</div>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- card container -->
+           <div class="md:grid flex flex-col items-center md:grid-cols-2 lg:grid-cols-4 gap-4 justify-evenly">
+            <!-- card 1 -->
+            <div class="bg-[#E7C1D3] flex gap-3 flex-col rounded-2xl items-start p-6  max-w-56">
+              <div class="avatar">
+                <div class="w-24 rounded-full">
+                  <img src="assets/profile (1).jpg" />
+                </div>
+              </div>
+              <div class="flex flex-col gap-2 items-start">
+                <h2 class="text-[20px] font-extrabold">Muhammad Jamil </h2>
+                <h3 class="text-[14px] font-bold">- CEO, Tech Innovations</h3>
+                <!-- Rating -->
+                <div class="rating" style="pointer-events: none;">
+                  <input type="radio" name="profile-1" class="mask mask-star" />
+                  <input type="radio" name="profile-1" class="mask mask-star" />
+                  <input type="radio" name="profile-1" class="mask mask-star" />
+                  <input type="radio" name="profile-1" class="mask mask-star" checked="checked" />
+                  <input type="radio" name="profile-1" class="mask mask-star" />
+                </div>                
+                <p class="text-[14px] font-medium">Amazing service and top-notch quality! Highly recommended for anyone looking to elevate their space</p>              
+              </div>
+            </div>
+            <!-- card-2 -->
+            <div class="bg-[#EFDA6E] flex gap-3 flex-col rounded-2xl items-start p-6  max-w-56">
+              <div class="">
+                <img src="assets/profile (2).jpg" class="object-cover h-24 w-24 rounded-full" />
+              </div>
+              <div class="flex gap-2 flex-col justify-center items-start">
+                <h2 class="text-[20px] font-extrabold">Michael B.</h2> 
+                <h3 class="text-[14px] font-bold">- Owner, Urban Lifestyle Boutique</h3>
+                <!-- Rating -->
+                <div class="rating" style="pointer-events: none;">
+                  <input type="radio" name="profile-2" class="mask mask-star" />
+                  <input type="radio" name="profile-2" class="mask mask-star" />
+                  <input type="radio" name="profile-2" class="mask mask-star" />
+                  <input type="radio" name="profile-2" class="mask mask-star" />
+                  <input type="radio" name="profile-2" class="mask mask-star" checked="checked" />
+                </div>                
+                <p class="text-[14px] font-medium">Professional, reliable, and creative. They turned my vision into reality beautifully.</p>             
+              </div>
+            </div>
+            <!-- card-3 -->
+            <div class="bg-[#A4DAC3] flex gap-3 flex-col rounded-2xl items-start p-6  max-w-56">
+              <div class="">
+                <img src="assets/profile (3).jpg" class="object-cover h-24 w-24 rounded-full" />
+              </div>
+              <div class="flex gap-2 flex-col justify-center items-start">
+                <h2 class="text-xl font-extrabold">David K.</h2> 
+                <h3 class="text-[14px] font-bold">- Project Manager, Construction Group</h3>
+                <!-- Rating -->
+                <div class="rating" style="pointer-events: none;">
+                  <input type="radio" name="profile-3" class="mask mask-star" />
+                  <input type="radio" name="profile-3" class="mask mask-star" />
+                  <input type="radio" name="profile-3" class="mask mask-star" checked="checked" />
+                  <input type="radio" name="profile-3" class="mask mask-star" />
+                  <input type="radio" name="profile-3" class="mask mask-star" />
+                </div>    
+                <p class="text-[14px] font-medium">Incredible craftsmanship and customer service. I couldn't be happier with the results!</p>              
+              </div>
+            </div>
+            <!-- card-4 -->
+            <div class="bg-[#77AAEA] flex gap-3 flex-col rounded-2xl items-start p-6  max-w-56">
+              <div class="">
+                <img src="assets/profile (4).jpg" class="object-cover h-24 w-24 rounded-full" />
+              </div>
+              <div class="flex gap-2 flex-col justify-center items-start">
+                <h2 class="text-[20px] font-extrabold">Emily R. - Marketing Director, Green Earth Co.</h2>
+                <!-- Rating -->
+                <div class="rating" style="pointer-events: none;">
+                  <input type="radio" name="profile-3" class="mask mask-star" />
+                  <input type="radio" name="profile-3" class="mask mask-star" />
+                  <input type="radio" name="profile-3" class="mask mask-star" checked="checked" />
+                  <input type="radio" name="profile-3" class="mask mask-star" />
+                  <input type="radio" name="profile-3" class="mask mask-star" />
+                </div>    
+                <p class="text-[14px] font-medium">"A seamless experience from start to finish. The attention to detail was beyond my expectations.</p>             
+              </div>
+            </div>
+            <div class="flex justify-center w-full items-center"><button class="rounded-full px-3 font-bold text-center text-sm bg-white">
+            </span> More Review<span class="inline w-6 h-6 ml-2 "><i class="fa-solid size-4 fa-arrow-right"></i></button></div>
+           </div>
+        </div>
+      </div>
        <!--Form section  -->
        <div class="bg-gray-100 flex flex-col gap-5 py-11">
         <!-- container -->
@@ -327,28 +437,30 @@
            <button class="max-w-[280px] px-3 pt-1 text-[16px] flex justify-center rounded-3xl bg-[#ABEF5F33]">
             <section > <i class="fa-solid my-auto size-5 fa-arrow-right"></i></section> Let's Connect                                
            </button>
-           <h2 class="font-extrabold mt-2 text--[24px] text-center">Let’s Discuss Next Project</h2>
+           <h2 class="font-extrabold mt-2 text-xl text-center">Let’s Discuss Next Project</h2>
            <p class="text-center text-[14px] md:text-[16px] mt-2 md:w-1/2">The barn house captivates with its blend of rustic charm and  modern sophistication, featuring weathered wood, sleek metal accents.</p>
           </div>
           <!-- input section -->
-           <div class="flex flex-col items-center md:grid md:p-4 md:grid-cols-2 gap-3 mx-auto">
-             <div class="mx-auto">
-               <input type="text" placeholder="First Name*" class="input rounded-full   min-w-60" />
-             </div>
-             <div>
-               <input type="text" placeholder="Last Name*" class="input rounded-full   min-w-60" />
-             </div>
-             <div>
-               <input type="number" placeholder="Phone Number*" class="input rounded-full   min-w-60" />
-             </div>                        
-             <div>
-               <input type="email" placeholder="Email Number*" class="input rounded-full   min-w-60" />
-             </div>
-             <!-- text area -->
-             <div class="col-span-2">
-               <textarea class="textarea rounded-3xl h-60  min-w-[327px]" placeholder="Write your message here" ></textarea> 
-             </div>
-           </div>
+          <div class="flex flex-col items-center md:grid md:grid-cols-2 md:p-4 gap-3 mx-auto">
+            <div class="w-full mx-auto">
+              <input type="text" placeholder="First Name*" class="input rounded-full w-full min-w-60" />
+            </div>
+            <div class="w-full mx-auto">
+              <input type="text" placeholder="Last Name*" class="input rounded-full w-full min-w-60" />
+            </div>
+            <div class="w-full mx-auto">
+              <input type="text" placeholder="Phone Number*" class="input rounded-full w-full min-w-60" />
+            </div>                        
+            <div class="w-full mx-auto">
+              <input type="email" placeholder="Email Number*" class="input rounded-full w-full min-w-60" />
+            </div>
+            <!-- text area -->
+            <div class="w-full md:col-span-2">
+              <textarea class="textarea rounded-3xl h-60 w-full" placeholder="Write your message here"></textarea> 
+            </div>
+          </div>
+          <!-- button -->
+          
            <!-- button -->
             <div class="w-full h-7">
              <button class="btn flex rounded-3xl w-full mx-auto bg-[#ABEF5F] items-center space-x-2">
